@@ -1,0 +1,12 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Search Icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-718 1799)">
+<g id="Search Icon">
+<use xlink:href="#path0_fill" transform="translate(718 -1799)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 13 10.5861L 15.707 13.293C 16.098 13.684 16.098 14.316 15.707 14.707L 14.707 15.707C 14.512 15.902 14.256 16 14 16C 13.744 16 13.488 15.902 13.293 15.707L 10.586 13C 9.53601 13.631 8.31201 14 7 14C 3.14099 14 0 10.86 0 7C 0 3.14001 3.14099 0 7 0C 10.859 0 14 3.14001 14 7C 14 8.31104 13.63 9.53601 13 10.5861ZM 2 7C 2 9.76099 4.23901 12 7 12C 9.76099 12 12 9.76099 12 7C 12 4.23901 9.76099 2 7 2C 4.23901 2 2 4.23901 2 7Z"/>
+</defs>
+</svg>

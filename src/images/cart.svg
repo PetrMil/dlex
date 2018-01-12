@@ -1,0 +1,12 @@
+<svg width="16" height="16" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>cart</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-601 1799)">
+<g id="cart" opacity="0.5">
+<use xlink:href="#path0_fill" transform="translate(601 -1799)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 15 2L 7 2L 7 4L 13.7 4L 12.3 9L 4 9L 4 1C 4 0.400024 3.59998 0 3 0L 0 0L 0 2L 2 2L 2 10C 2 10.6 2.40002 11 3 11L 13 11C 13.4 11 13.8 10.7 14 10.3L 16 3.30005C 16 3 16 2 15 2ZM 3 16C 4.10455 16 5 15.1046 5 14C 5 12.8954 4.10455 12 3 12C 1.89545 12 1 12.8954 1 14C 1 15.1046 1.89545 16 3 16ZM 15 14C 15 15.1046 14.1046 16 13 16C 11.8954 16 11 15.1046 11 14C 11 12.8954 11.8954 12 13 12C 14.1046 12 15 12.8954 15 14Z"/>
+</defs>
+</svg>

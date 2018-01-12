@@ -1,0 +1,41 @@
+@import "mixins.less";
+@import "navigation.less";
+@import "normalize.less";
+@import "select-device.less";
+
+body {
+	width: 100%;
+	background: @bgColor;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	font-size: 14px;
+	color: #FFFFFF;
+	.body-regular-font();
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&.select-device {
+		background-color: #FFFFFF;
+		height: 101px;
+	}
+}
+
+.main-container {
+	max-width: 1170px;
+	width: 1170px;
+	height: 100%;
+}
+

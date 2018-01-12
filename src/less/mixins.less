@@ -1,0 +1,34 @@
+
+// Colors
+@mainDark: #666EE8;
+@mainLight: #8A91FF;
+@bgColor: #F4F5FA;
+
+
+// Fonts
+
+.body-regular-font() {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.body-light-font() {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.placeholder(@rules) {
+
+    &::-webkit-input-placeholder {
+        @rules();
+    }
+    &:-moz-placeholder {
+        @rules();
+    }
+    &::-moz-placeholder {
+        @rules();
+    }
+    &:-ms-input-placeholder {
+        @rules();
+    }
+}

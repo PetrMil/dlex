@@ -1,0 +1,135 @@
+
+.dark-text {
+	opacity: 0.6;
+}
+
+.navigation-bar {
+	width: 100%;
+	padding: 0 0 0 30px;
+	height: 48px;
+	background: @mainDark;
+	box-sizing: border-box;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.toggle {
+		background: url('../images/toggle@2x.png') no-repeat;
+		background-size: 19px 14px;
+		width: 19px;
+		height: 14px;
+		position: relative;
+		margin-left: 2px;
+		cursor: pointer;
+		top: 6px;
+		display: inline-block;
+
+		&.inactive {
+			background: url('../images/toggle-inactive@2x.png') no-repeat;
+			background-size: 11px 6px;
+			width: 11px;
+			height: 6px;
+			top: -1px;
+			margin-left: 8px;		
+		}
+	}
+
+	.label-text() {
+		.dark-text();
+		margin-right: 9px;
+		display: inline-block;
+	}
+
+	.left-pane {
+		.label {
+			.label-text();
+		}
+
+		.select {
+			
+
+		}
+
+		.contacts {
+			margin-left: 35px;
+
+			.work-hours {
+				.label-text();
+			}		
+		}
+	}
+
+	.right-pane {
+		height: 100%;
+		display: flex;
+
+		.icon-block {
+			display: flex;
+			align-items: center;
+
+			cursor: pointer;
+			width: 106px;
+			height: 100%;
+			margin: 0 18px;
+
+			&.small {
+				width: 78px;
+			}
+
+			.icon {
+				width: 16px;
+				height: 16px;
+				margin-right: 10px;
+				
+				&.account {
+					background: url('../images/account.svg') no-repeat;
+				}
+
+				&.cart {
+					background: url('../images/cart.svg') no-repeat;					
+				}
+			}
+		}
+
+		.search-input {
+			width: 251px;
+			height: 100%;
+			position: relative;
+			background: rgba(0,0,0,0.05);
+
+			input {
+				outline: none;
+				background: transparent;
+				border: none;
+				width: 175px;
+				margin-left: 46px;
+				margin-top: -1px;
+				height: 100%;
+
+				color: white;
+
+				.placeholder({
+					color: white;
+					opacity: 0.5;
+				});
+
+				&:focus {
+					outline: none;
+				}
+
+			}
+
+			.icon {
+				position: absolute;
+				left: 20px;
+				top: 50%;
+				margin-top: -8px;
+			}
+		}
+	}
+
+}/* Group */
+
+
+
