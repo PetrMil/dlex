@@ -1,3 +1,4 @@
+@import "mixins.less";
 
 .select-device {
 	.container {
@@ -59,9 +60,49 @@
 						left: 50%;
 					} 
 				}
+
+			}
+			.select-wrap{
+				
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+    			width: 66%;
+    			padding-left: 16px;	
+
+				.toggle {
+					background: url('../images/togglenoshadow@2x.svg') no-repeat;
+					background-size: 11px 7px;
+					width: 11px;
+					height: 7px;
+					position: relative;
+					cursor: pointer;
+					padding-right: 7px;
+				}
+
+
+				.select-device {
+					line-height: 18px;
+					font-size: 14px;
+					width: 130px;
+					height: 18px;	
+					outline: none;
+				    background: transparent;
+				    border: none;
+
+					.placeholder({
+						color: #A7ABBD;
+					});
+
+					&:focus {
+						outline: none;
+					}
+				}		
+
 			}
 		} 
 	}
 }
+
 
 

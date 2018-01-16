@@ -110,7 +110,6 @@
   top: 50%;
   margin-top: -8px;
 }
-/* Group */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -348,6 +347,247 @@ th {
 .select-device .container .select-input .buy-sell .cell.right {
   left: 50%;
 }
+.select-device .container .select-input .select-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66%;
+  padding-left: 16px;
+}
+.select-device .container .select-input .select-wrap .toggle {
+  background: url('../images/togglenoshadow@2x.svg') no-repeat;
+  background-size: 11px 7px;
+  width: 11px;
+  height: 7px;
+  position: relative;
+  cursor: pointer;
+  padding-right: 7px;
+}
+.select-device .container .select-input .select-wrap .select-device {
+  line-height: 18px;
+  font-size: 14px;
+  width: 130px;
+  height: 18px;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+.select-device .container .select-input .select-wrap .select-device::-webkit-input-placeholder {
+  color: #A7ABBD;
+}
+.select-device .container .select-input .select-wrap .select-device:-moz-placeholder {
+  color: #A7ABBD;
+}
+.select-device .container .select-input .select-wrap .select-device::-moz-placeholder {
+  color: #A7ABBD;
+}
+.select-device .container .select-input .select-wrap .select-device:-ms-input-placeholder {
+  color: #A7ABBD;
+}
+.select-device .container .select-input .select-wrap .select-device:focus {
+  outline: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header .left-side {
+  height: 100%;
+}
+.header .left-side .titleText {
+  width: 344px;
+  height: 88px;
+  margin-top: 99px;
+}
+.header .left-side .describe-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  font-size: 24px;
+  color: #6B6F81;
+  max-width: 75.375%;
+  margin-top: 5px;
+}
+.header .left-side .select-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 16px;
+  color: #6B6F81;
+  margin-top: 102px;
+}
+.header .left-side .select-icon {
+  width: 537px;
+  height: 82px;
+  display: flex;
+  background-color: #FFFFFF;
+  border: 1px solid #E4E5EC;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.03);
+  margin-top: 19px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.header .left-side .select-icon .icon-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #E4E5EC;
+}
+.header .left-side .select-icon .icon-container.watch {
+  width: 104px;
+  transition: background-color 0.7s ease-out;
+}
+.header .left-side .select-icon .icon-container.mobile {
+  width: 101px;
+  transition: background-color 0.7s ease-out;
+}
+.header .left-side .select-icon .icon-container.tablet {
+  width: 108px;
+  transition: background-color 0.7s ease-out;
+}
+.header .left-side .select-icon .icon-container.laptop {
+  width: 111px;
+  transition: background-color 0.7s ease-out;
+}
+.header .left-side .select-icon .icon-container.desktop {
+  width: 111px;
+  transition: background-color 0.7s ease-out;
+}
+.header .left-side .select-icon .icon-container.active {
+  background-color: #8A91FF;
+}
+.ben-content-alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 154px;
+}
+.ben-content-alignment p:first-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  font-size: 18px;
+  color: #464855;
+}
+.ben-content-alignment p:last-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  color: #898EA2;
+}
+.benefits {
+  display: flex;
+  align-items: center;
+  height: 423px;
+  background-color: #fff;
+  flex-direction: column;
+}
+.benefits .ben-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 26px;
+  color: #464855;
+  margin-top: 71px;
+}
+.benefits .ben-container {
+  display: flex;
+  height: 154px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 79px;
+}
+.benefits .ben-container .fast-pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 154px;
+  width: 31.3%;
+}
+.benefits .ben-container .fast-pay p:first-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  font-size: 18px;
+  color: #464855;
+}
+.benefits .ben-container .fast-pay p:last-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  color: #898EA2;
+}
+.benefits .ben-container .price-lock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 154px;
+  width: 26.75%;
+}
+.benefits .ben-container .price-lock p:first-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  font-size: 18px;
+  color: #464855;
+}
+.benefits .ben-container .price-lock p:last-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  color: #898EA2;
+}
+.benefits .ben-container .no-risk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 154px;
+  width: 31.62%;
+}
+.benefits .ben-container .no-risk p:first-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  font-size: 18px;
+  color: #464855;
+}
+.benefits .ben-container .no-risk p:last-of-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  color: #898EA2;
+}
+.benefits .ben-container .no-risk p:last-of-type {
+  width: 82.36%;
+}
 body {
   width: 100%;
   background: #F4F5FA;
@@ -372,6 +612,11 @@ body {
 .wrapper.select-device {
   background-color: #FFFFFF;
   height: 101px;
+}
+.wrapper.header {
+  background-color: #F4F5FA;
+  width: 1600px;
+  height: 610px;
 }
 .main-container {
   max-width: 1170px;

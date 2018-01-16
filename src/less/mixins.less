@@ -17,6 +17,27 @@
 	font-weight: 300;
 }
 
+.ben-dark-font() {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 38px;
+    font-size: 18px;
+    color: #464855;
+}
+
+.ben-light-font() {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: center;
+    color: #898EA2;
+}
+
+//other
+
 .placeholder(@rules) {
 
     &::-webkit-input-placeholder {
@@ -31,4 +52,9 @@
     &:-ms-input-placeholder {
         @rules();
     }
+}
+
+// animation
+.change-bg-color-animation() {
+    transition: background-color 0.7s ease-out;
 }

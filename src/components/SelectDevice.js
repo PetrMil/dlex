@@ -31,8 +31,10 @@ export default class SelectDevice extends Component {
 						<div className={`button ${ active === 'sell' ? 'active' : '' }`} onClick={ () => this.handleClick('sell') }>sell</div>
 						<div className={`cell ${ active === 'sell' ? 'right' : '' }`}></div>
 					</div>
-					<input type="text" placeholder="Select Your Device" />
-					<div className="toggle"></div>	
+					<div className="select-wrap">
+						<input type="text" placeholder="Select Your Device" className="select-device" />
+						<div className="toggle"></div>
+					</div>		
 				</div>
 			</div>
 		)
