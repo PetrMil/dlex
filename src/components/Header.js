@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SVGInline from "react-svg-inline";
+
 import titleText from '../images/title-text.svg';
 import watch from '../images/watch.svg';
 import mobile from '../images/mobile.svg';
@@ -8,6 +8,7 @@ import tablet from '../images/tablet.svg';
 import desktop from '../images/desktop.svg';
 import handsMoney from '../images/hands-money.png';
 
+/*import {MobileLogo} from './MobileLogo.js';*/
 
 export default class Header extends Component {
 
@@ -39,7 +40,7 @@ export default class Header extends Component {
 					<div className="select-text">Select Device To Continue</div>
 					<div className="select-icon">
 						<div className={`icon-container watch ${ active === 'watch' ? 'active' : '' }`} onClick={ () => this.handleClick('watch') } >
-							<SVGInline svg={ watch } />
+							{/*<MobileLogo />*/}
 						</div>
 						<div className={`icon-container mobile ${ active === 'mobile' ? 'active' : '' }`} onClick={ () => this.handleClick('mobile') }>
 							<img src={mobile} />
