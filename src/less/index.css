@@ -592,16 +592,301 @@ th {
 .benefits .ben-container .no-risk p:last-of-type {
   width: 82.36%;
 }
+.btn-align {
+  line-height: 28px;
+  margin-top: 143px;
+}
 .watches {
   display: flex;
   width: 100%;
   height: 681px;
   background: #F4F5FA;
+  flex-direction: column;
+}
+.watches .watches-nav-bar {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.watches .watches-nav-bar h1 {
+  width: 160px;
+  height: 28px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #363743;
+  padding-top: 88px;
+}
+.watches .watches-nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  width: 428px;
+  height: 28px;
+  padding-top: 88px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  justify-content: space-between;
+}
+.watches .watches-nav-bar ul .button {
+  line-height: 16px;
+  font-size: 14px;
+  color: #6B6F81;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+.watches .watches-nav-bar ul .button.active {
+  width: 93px;
+  height: 28px;
+  background-color: #EDEEF4;
+  border-radius: 100px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #666EE8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .watches .watches-container {
-  max-width: 1170px;
-  width: 1170px;
-  height: 100%;
+  width: 100%;
+  display: flex;
+  height: 401px;
+  flex-wrap: wrap;
+}
+.watches .watches-container .watches-section {
+  width: 585px;
+  height: 200px;
+  display: flex;
+  background-color: #FFFFFF;
+  border: 1px solid #EDEEF4;
+  box-sizing: border-box;
+}
+.watches .watches-container .watches-section img {
+  width: 160px;
+  height: 160px;
+  margin: 20px;
+}
+.watches .watches-container .watches-section .best-sale {
+  width: 75px;
+  height: 26px;
+  background: #666EE8;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 28px;
+  margin-top: 143px;
+  margin-left: 50px;
+}
+.watches .watches-container .watches-section .sale {
+  width: 46px;
+  height: 26px;
+  background: #FFBF71;
+  border-radius: 4px;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 143px;
+  margin-left: 79px;
+}
+.watches .watches-container .watches-section .out-of-stock {
+  width: 93px;
+  height: 26px;
+  background: #C0C4D1;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 143px;
+  margin-left: 32px;
+}
+.watches .watches-container .watches-section .watch-small-sect {
+  width: 230px;
+  height: 144px;
+  position: relative;
+}
+.watches .watches-container .watches-section .watch-small-sect .color {
+  width: 10px;
+  height: auto;
+  position: absolute;
+  top: 77px;
+  left: -21px;
+}
+.watches .watches-container .watches-section .watch-small-sect h1 {
+  width: 230px;
+  height: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  color: #464855;
+  position: absolute;
+  top: 18px;
+}
+.watches .watches-container .watches-section .watch-small-sect .watch-color {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  color: #AEB2C1;
+  position: absolute;
+  top: 83px;
+  left: 16px;
+}
+.watches .watches-container .watches-section .watch-small-sect .price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  color: #666EE8;
+  position: absolute;
+  top: 114px;
+}
+.watches .watches-container .watches-section .watch-small-sect .old-price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #AEB2C1;
+  position: absolute;
+  top: 144px;
+}
+.destinations {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 1040px;
+}
+.destinations header {
+  width: 100%;
+  height: 284px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.destinations header h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #464855;
+  margin-top: 108px;
+}
+.destinations header p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 0px;
+  font-size: 16px;
+  text-align: center;
+  color: #6B6F81;
+  padding-bottom: 45px;
+}
+.destinations main {
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+  width: 100%;
+}
+.destinations main .homes {
+  width: 31.624%;
+  position: relative;
+}
+.destinations main .homes .house_img {
+  width: 370px;
+  height: 520px;
+}
+.destinations main .homes h2 {
+  position: absolute;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  top: 432px;
+  left: 31px;
+}
+.destinations main .homes h3 {
+  position: absolute;
+  width: 180px;
+  height: 15px;
+  top: 464px;
+  left: 54px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.destinations main .homes .location {
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  top: 475px;
+  left: 31px;
+}
+.destinations main .homes p {
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: right;
+  color: #FFFFFF;
+  top: 452px;
+  right: 29px;
+}
+.destinations button {
+  width: 250px;
+  height: 56px;
+  background: #666EE8;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 79px;
 }
 body {
   width: 100%;

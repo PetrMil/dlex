@@ -1,22 +1,22 @@
 import React from 'react';
 
 export default () => (
-	<svg width="21" height="31" viewBox="0 0 21 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<svg width="21" height="31" viewBox="0 0 21 31" version="1.1" >
 	<title>mobile</title>
 	<desc>Created using Figma</desc>
 	<g id="Canvas" transform="translate(290 1195)">
 	<g id="mobile" opacity="0.9">
 	<g id="Oval">
-	<use xlink:href="#path0_stroke" transform="translate(-281.5 -1171.5)" fill="#B0B4C4"/>
+	<use  transform="translate(-281.5 -1171.5)" fill="#B0B4C4"/>
 	</g>
 	<g id="Shape">
-	<use xlink:href="#path1_stroke" transform="translate(-289.5 -1189.5)" fill="#B0B4C4"/>
+	<use  transform="translate(-289.5 -1189.5)" fill="#B0B4C4"/>
 	</g>
 	<g id="Shape">
-	<use xlink:href="#path1_stroke" transform="translate(-289.5 -1174.5)" fill="#FFFFFF"/>
+	<use  transform="translate(-289.5 -1174.5)" fill="#FFFFFF"/>
 	</g>
 	<g id="Shape">
-	<use xlink:href="#path2_stroke" transform="translate(-289.5 -1194.5)" fill="#B0B4C4"/>
+	<use  transform="translate(-289.5 -1194.5)" fill="#B0B4C4"/>
 	</g>
 	</g>
 	</g>

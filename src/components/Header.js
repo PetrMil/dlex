@@ -8,8 +8,8 @@ import tablet from '../images/tablet.svg';
 import desktop from '../images/desktop.svg';
 import handsMoney from '../images/hands-money.png';
 
-/*import {MobileLogo} from './MobileLogo.js';*/
-
+/*import {MobileLogo} from './MobileLogo.js';
+*/
 export default class Header extends Component {
 
 	constructor(props) {

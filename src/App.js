@@ -7,6 +7,8 @@ import SelectDevice from './components/SelectDevice';
 import Header from './components/Header';
 import Benefits from './components/Benefits';
 import Watches from './components/Watches';
+import Destinations from './components/Destinations';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -24,7 +26,13 @@ class App extends Component {
         </MainContainer>
         <MainContainer className="watches"> 
          <Watches />
-        </MainContainer>         
+        </MainContainer>
+        <MainContainer className="destinations"> 
+         <Destinations />
+        </MainContainer>
+        <MainContainer className="footer"> 
+         <Footer />
+        </MainContainer>      
       </div>
     );
   }
