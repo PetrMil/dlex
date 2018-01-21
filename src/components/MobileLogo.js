@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-	<svg width="21" height="31" viewBox="0 0 21 31" version="1.1" >
+	<svg width="21" height="31" viewBox="0 0 21 31" version="1.1" xmlns="http://www.w3.org/2000/svg" >
 	<title>mobile</title>
 	<desc>Created using Figma</desc>
 	<g id="Canvas" transform="translate(290 1195)">
