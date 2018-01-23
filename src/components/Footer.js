@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
+import { Data } from './imagesComponent/Data';
+
 import logo_footer from '../images/logo_footer.png';
-import facebook from '../images/facebook@2x.png';
-import insta from '../images/insta@2x.png';
-import twit from '../images/twit@2x.png';
-import pint from '../images/pint@2x.png';
 import arrow_right from '../images/arrow_right@2x.svg';
 
 
-export default class Benefits extends Component {
+export default class Footer extends Component {
 
 	constructor(props) {
 
@@ -67,12 +65,7 @@ export default class Benefits extends Component {
 					</div>
 					<div className="social">
 						<h2>visit us</h2>
-						<div className="social-container">
-							<div className={`button ${ active === 'facebook' ? 'active' : '' }`} onClick={ () => this.handleClick('facebook')}><img src={facebook} /></div>
-							<div className={`button ${ active === 'insta' ? 'active' : '' }`} onClick={ () => this.handleClick('insta') }><img src={insta} /></div>
-							<div className={`button ${ active === 'pint' ? 'active' : '' }`} onClick={ () => this.handleClick('pint') } ><img src={pint} /></div>
-							<div className={`button ${ active === 'twit' ? 'active' : '' }`} onClick={ () => this.handleClick('twit') } ><img src={twit} /></div>
-						</div>
+						<Data />
 					</div>
 					<div className="subscribe">
 						<h2>Sign up to our newsletter</h2>

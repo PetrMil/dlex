@@ -463,6 +463,9 @@ th {
 .header .left-side .select-icon .icon-container.active {
   background-color: #8A91FF;
 }
+.header .left-side .select-icon .icon-container.active svg * {
+  fill: #FFFFFF;
+}
 .ben-content-alignment {
   display: flex;
   align-items: center;
@@ -630,7 +633,7 @@ th {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  justify-content: space-between;
+  justify-content: center;
 }
 .watches .watches-nav-bar ul .button {
   line-height: 16px;
@@ -643,6 +646,7 @@ th {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
+  padding: 0 20px;
 }
 .watches .watches-nav-bar ul .button.active {
   width: 93px;
