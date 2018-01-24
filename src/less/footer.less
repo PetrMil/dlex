@@ -1,6 +1,5 @@
-
 .footer {
-	width: 1600px;
+	width: 100%;
 	height: 737px;
 	background: #353745;
 	display: flex;
@@ -87,36 +86,25 @@
 					margin-top: 27px;
 
 					.button {
-				        line-height: 16px;
-				        font-size: 14px;
-				        color: #6B6F81;
-				        cursor: pointer;
-				        display: flex;
-				        justify-content: center;
-				        align-items: center;
-				        .watch-font();
-				        position: relative;
-				        z-index: 2;
+						width: 48px;
+						height: 48px;
+						
+						img {
+							width: 100%;
+							height: 100%;
+							z-index: 20;
+							cursor: pointer;
+						}
 
-				        &.active {
-				          color: #666EE8;
-
-				          	&:after {
-					            width: 100%;
-					            height: 28px;
-					            background-color: #EDEEF4;
-					            border-radius: 100px;
-					            top: 0;
-					            left: -16px;
-					            padding: 0 16px;
-					            position: absolute;
-					            content: "";
-					            z-index: -1;
-				          	}
-					    }  
-
+						&.active {
+						background: url('../images/to_insta@2x.png');
+						background-size: 48px 48px;
+						z-index: 99;
+						height: 100%;
+						}
 					}
 				}
+			}
 
 			.subscribe {
 				flex: 1;

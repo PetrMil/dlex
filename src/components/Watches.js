@@ -31,11 +31,11 @@ export default class Wathces extends Component {
 				<div className="watches-nav-bar">
 					<h1>popular today</h1>
 					<ul>
-						<li className={`button ${ active === 'shoes' ? 'active' : '' }`} onClick={ () => this.handleClick('shoes')}>Shoes</li>
-						<li className={`button ${ active === 'jackets' ? 'active' : '' }`} onClick={ () => this.handleClick('jackets')}>Jackets</li>
-						<li className={`button ${ active === 'watches' ? 'active' : '' }`} onClick={ () => this.handleClick('watches')}>Watches</li>
-						<li className={`button ${ active === 'jeans' ? 'active' : '' }`} onClick={ () => this.handleClick('jeans')}>Jeans</li>
-						<li className={`button ${ active === 'shirts' ? 'active' : '' }`} onClick={ () => this.handleClick('shirts')}>Shirts</li>
+						<li className={`button_nav ${ active === 'shoes' ? 'active' : '' }`} onClick={ () => this.handleClick('shoes')}>Shoes</li>
+						<li className={`button_nav ${ active === 'jackets' ? 'active' : '' }`} onClick={ () => this.handleClick('jackets')}>Jackets</li>
+						<li className={`button_nav ${ active === 'watches' ? 'active' : '' }`} onClick={ () => this.handleClick('watches')}>Watches</li>
+						<li className={`button_nav ${ active === 'jeans' ? 'active' : '' }`} onClick={ () => this.handleClick('jeans')}>Jeans</li>
+						<li className={`button_nav ${ active === 'shirts' ? 'active' : '' }`} onClick={ () => this.handleClick('shirts')}>Shirts</li>
 					</ul>
 				</div>
 				<div className="watches-container">

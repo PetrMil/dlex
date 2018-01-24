@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Data } from './imagesComponent/Data';
 
-import logo_footer from '../images/logo_footer.png';
+import logo_footer from '../images/logo_footer.svg';
 import arrow_right from '../images/arrow_right@2x.svg';
 
 

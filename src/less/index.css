@@ -466,6 +466,10 @@ th {
 .header .left-side .select-icon .icon-container.active svg * {
   fill: #FFFFFF;
 }
+.header .right-side .hands-money {
+  width: 397.7px;
+  height: 510px;
+}
 .ben-content-alignment {
   display: flex;
   align-items: center;
@@ -633,9 +637,9 @@ th {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  justify-content: center;
+  justify-content: space-between;
 }
-.watches .watches-nav-bar ul .button {
+.watches .watches-nav-bar ul .button_nav {
   line-height: 16px;
   font-size: 14px;
   color: #6B6F81;
@@ -646,19 +650,23 @@ th {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  padding: 0 20px;
+  position: relative;
+  z-index: 2;
 }
-.watches .watches-nav-bar ul .button.active {
-  width: 93px;
+.watches .watches-nav-bar ul .button_nav.active {
+  color: #666EE8;
+}
+.watches .watches-nav-bar ul .button_nav.active:after {
+  width: 100%;
   height: 28px;
   background-color: #EDEEF4;
   border-radius: 100px;
-  line-height: 16px;
-  font-size: 14px;
-  color: #666EE8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 0;
+  left: -16px;
+  padding: 0 16px;
+  position: absolute;
+  content: "";
+  z-index: -1;
 }
 .watches .watches-container {
   width: 100%;
@@ -894,7 +902,7 @@ th {
   border: none;
 }
 .footer {
-  width: 1600px;
+  width: 100%;
   height: 737px;
   background: #353745;
   display: flex;
