@@ -4,6 +4,7 @@ import facebook from '../../images/facebook@2x.png';
 import insta from '../../images/insta@2x.png';
 import twit from '../../images/twit@2x.png';
 import pint from '../../images/pint@2x.png';
+import { Index } from './Index';
 
 export class Data extends Component {
 
@@ -33,33 +34,12 @@ export class Data extends Component {
                 },
 
             ],
-            activeButton: null
         };
     }
     
-    handleClick(index) {
-        this.setState({
-            activeButton: index
-        })
-    }
-
     render() {
-
-        var active= this.state.activeButton
-   		
-		return (
-			<div className="social-container">
-				{
-                    this.state.data.map((b, index) => {
-                        var className = this.state.activeButton === index ? 'button active' : 'button';
-                        return (
-                            <div className={className} key={index} onClick={ () => this.handleClick(index)}>
-                                <img src={b.src} />
-                            </div>
-                        )
-                    })
-                }
-			</div>
+        return (
+                <Index data={this.state.data} />
         )
     }
 }
