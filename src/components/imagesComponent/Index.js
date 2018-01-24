@@ -10,12 +10,13 @@ export class Index extends Component {
         };
     }
 
-
     handleClick(index) {
         this.setState({
             activeButton: index
         })
+        console.log(this.props.data.type)
     }
+    
     render() {
 
         var active= this.state.activeButton
@@ -24,10 +25,9 @@ export class Index extends Component {
 			<div className="social-container">
 				{
 	                this.props.data.map((b, index) => {
-	                    var className = this.state.activeButton === index ? 'button active' : 'button';
+	                    var className = this.state.activeButton === index ? b.type + ' active' : b.type;
 	                    return (
 	                        <div className={className} key={index} onClick={ () => this.handleClick(index)}>
-	                            <img src={b.src} />
 	                        </div>
 	                    )
 	                })

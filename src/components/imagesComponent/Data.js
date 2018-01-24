@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-import facebook from '../../images/facebook@2x.png';
-import insta from '../../images/insta@2x.png';
-import twit from '../../images/twit@2x.png';
-import pint from '../../images/pint@2x.png';
 import { Index } from './Index';
 
 export class Data extends Component {
@@ -14,26 +10,18 @@ export class Data extends Component {
             
             data: [
                	{
-                    type: "facebook",
-                    src: facebook
+                    type: "facebook"
                 },
-
                 {
-                    type: "insta",
-                    src: insta
+                    type: "insta"
                 },
-
                 {
-                    type: "twit",
-                    src: twit
+                    type: "twit"
                 },
-				
                 {
-                    type: "pint",
-                    src: pint
-                },
-
-            ],
+                    type: "pint"
+                }
+            ]
         };
     }
     
