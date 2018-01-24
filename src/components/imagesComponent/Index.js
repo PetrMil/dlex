@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import data from './data';
 
-
-export class Index extends Component {
+export class ImagesComponent extends Component {
 
    constructor(props) {
         super(props);
@@ -14,7 +14,6 @@ export class Index extends Component {
         this.setState({
             activeButton: index
         })
-        console.log(this.props.data.type)
     }
     
     render() {
@@ -24,7 +23,7 @@ export class Index extends Component {
 		return (
 			<div className="social-container">
 				{
-	                this.props.data.map((b, index) => {
+	                data.map((b, index) => {
 	                    var className = this.state.activeButton === index ? b.type + ' active' : b.type;
 	                    return (
 	                        <div className={className} key={index} onClick={ () => this.handleClick(index)}>
@@ -36,3 +35,5 @@ export class Index extends Component {
         )
     }
 }
+
+  

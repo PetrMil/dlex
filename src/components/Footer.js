@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Data } from './imagesComponent/Data';
+import { ImagesComponent } from './imagesComponent/index';
 
 import logo_footer from '../images/logo_footer.svg';
 import arrow_right from '../images/arrow_right@2x.svg';
@@ -65,7 +65,7 @@ export default class Footer extends Component {
 					</div>
 					<div className="social">
 						<h2>visit us</h2>
-						<Data />
+						<ImagesComponent />
 					</div>
 					<div className="subscribe">
 						<h2>Sign up to our newsletter</h2>
