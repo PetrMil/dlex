@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Index } from './Index';
 
 import facebook from '../../images/facebook@2x.png';
 import insta from '../../images/insta@2x.png';
@@ -33,25 +32,34 @@ export class Data extends Component {
                     src: pint
                 },
 
-            ]
+            ],
+            activeButton: null
         };
+    }
+    
+    handleClick(index) {
+        this.setState({
+            activeButton: index
+        })
     }
 
     render() {
 
-		var data = this.state.data;
-		
-		var pictures = data.map((b) => {
-			
-			return (
-				<Index data={b} />
-			)
-		})
+        var active= this.state.activeButton
    		
 		return (
 			<div className="social-container">
-				{pictures}
+				{
+                    this.state.data.map((b, index) => {
+                        var className = this.state.activeButton === index ? 'button active' : 'button';
+                        return (
+                            <div className={className} key={index} onClick={ () => this.handleClick(index)}>
+                                <img src={b.src} />
+                            </div>
+                        )
+                    })
+                }
 			</div>
-		)
+        )
     }
 }
