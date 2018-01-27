@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import WatchLogo from '../svgComponents/svg/WatchLogo.js';
 import MobileLogo from '../svgComponents/svg/MobileLogo.js';
@@ -15,7 +14,6 @@ const data =
     desktop: DesktopLogo
 	}
 
-const names = ['watch', 'mobile', 'tablet', 'laptop', 'desktop']
+const names = Object.keys(data)
         
-export {data};
-export {names};
+export {data, names};

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {data} from './data';
-import {names} from './data';
+import {data, names} from './data';
+
 
 export class SvgComponent extends Component {
 
@@ -27,7 +27,7 @@ export class SvgComponent extends Component {
                     names.map((name, index) => {
                         var Logo = data[name];
                         return (
-                            <div className={ `icon-container ${name} ${ active === name ? 'active' : '' }`} onClick={ () => this.handleClick(name) } >
+                            <div className={ `icon-container ${name} ${ active === name ? 'active' : '' }` } onClick={ () => this.handleClick(name) } >
                                 <Logo key={index} />
                             </div>
                         )
