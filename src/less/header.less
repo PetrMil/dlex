@@ -13,6 +13,10 @@
 			width: 344px;
 			height: 88px;
 			margin-top: 99px;
+			
+			.screen-sm-max({
+				margin-top: 30px;
+			})
 		}
 
 		.describe-text {
@@ -23,8 +27,9 @@
 			font-size: 24px;
 			color: #6B6F81;
 			max-width: 75.375%;
-			margin-top: 5px;
+			margin-top: 5px;	
 		}
+
 		.select-text {
 			font-family: Montserrat;
 			font-style: normal;
@@ -33,6 +38,10 @@
 			font-size: 16px;
 			color: #6B6F81;
 			margin-top: 102px;
+		
+			.screen-sm-max({
+				margin-top: 30px;
+			})	
 		}
 
 		.select-icon {
@@ -92,13 +101,23 @@
 			}
 					
 		}
+		
+		.screen-sm-max({
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		})	
 	}
 	
 	.right-side {
 		.hands-money {
-		width: 397.7px;
-		height: 510px;
+			width: 397.7px;
+			height: 510px;
 		}
+		.screen-sm-max({
+			display: none;
+		})			
 	}
 }
 

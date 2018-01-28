@@ -5,15 +5,16 @@
 	flex-direction: column;
 	height: 154px;
 
-		p:first-of-type {
-			.ben-dark-font();
-			margin-top: 37px;
-		}
+	p:first-of-type {
+		.ben-dark-font();
+		margin-top: 37px;
+	}
+
+	p:last-of-type {
+		.ben-light-font();
+		line-height: 167%;
+	}
 	
-		p:last-of-type {
-			.ben-light-font();
-			line-height: 167%;
-		}
 }
 
 .benefits {	
@@ -43,11 +44,21 @@
 		.fast-pay {
 			.ben-content-alignment();
 			width: 31.3%;
+		
+			.screen-sm-max({
+				height: auto;
+				width: 70.3%;
+			})	
 		}
 
 		.price-lock {
 			.ben-content-alignment();
 			width: 26.75%;
+			
+			.screen-sm-max({
+				height: auto;
+			    width: 66.75%;
+			})
 		}
 
 		.no-risk {
@@ -57,6 +68,20 @@
 			p:last-of-type {
 				width:82.36%; 
 			}
+
+			.screen-sm-max({
+				height: auto;
+				width: 84%;
+			})
 		}
+
+		.screen-sm-max({
+			flex-direction: column;
+			height: auto;
+		})	
 	}
+	
+	.screen-sm-max({
+		height: 734px;
+	})	
 }

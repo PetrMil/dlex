@@ -25,6 +25,10 @@
 			text-transform: uppercase;
 			color: #363743;
 			padding-top: 88px;
+
+			.screen-sm-max({
+				padding-top: 0;
+			})	
    		}
 		
 		ul {	
@@ -65,9 +69,18 @@
 			          	}
 			        }  
      			}
-
+			
+			.screen-sm-max({
+				padding-top: 0;
+				padding-right: 15px;
+				width: 380px;
+			})	
     	}
-		
+	
+		.screen-sm-max({
+			height: 143px;
+			align-items: center;
+		})	
 	}
 	.watches-container	{
 		width: 100%;
@@ -184,4 +197,7 @@
 			}
 		}
 	}
+	.screen-sm-max({
+		height: 980px;
+	})	
 }

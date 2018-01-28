@@ -18,6 +18,7 @@ body {
 	font-size: 14px;
 	color: #FFFFFF;
 	.body-regular-font();
+
 }
 
 .App {
@@ -31,21 +32,35 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 
 	&.select-device {
 		background-color: #FFFFFF;
 		height: 101px;
 	}
+
 	&.header {
 		background-color: #F4F5FA;
-		width: 1600px;
 		height: 610px;
+
+		.screen-sm-max({
+			height: 440px;
+		})
 	}
+
+	.screen-sm-max({
+		width: 600px;
+	});
+
 }
 
 .main-container {
 	max-width: 1170px;
 	width: 1170px;
 	height: 100%;
+
+	.screen-sm-max({
+		width: 600px;
+	});
 }
 

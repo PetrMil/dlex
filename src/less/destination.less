@@ -18,30 +18,38 @@
 		    align-items: center;
 					
 			h1 {
-		    font-family: Montserrat;
-		    font-style: normal;
-		    font-weight: 600;
-		    line-height: 26px;
-		    font-size: 23px;
-		    text-align: center;
-		    text-transform: uppercase;
-		    color: #464855;
-		    margin-top: 108px;
+			    font-family: Montserrat;
+			    font-style: normal;
+			    font-weight: 600;
+			    line-height: 26px;
+			    font-size: 23px;
+			    text-align: center;
+			    text-transform: uppercase;
+			    color: #464855;
+			    margin-top: 108px;
+		    	
+		    	.screen-sm-max({
+					margin-top: 50px;
+				})	
 			}
 
 			p {
-		    font-family: Montserrat;
-		    font-style: normal;
-		    font-weight: 300;
-		    line-height: 0px;
-		    font-size: 16px;
-		    text-align: center;
-		    color: #6B6F81;
-		    padding-bottom: 45px;
+			    font-family: Montserrat;
+			    font-style: normal;
+			    font-weight: 300;
+			    line-height: 0px;
+			    font-size: 16px;
+			    text-align: center;
+			    color: #6B6F81;
+			    padding-bottom: 45px;
 			}
 
+			.screen-sm-max({
+				height: 160px;
+			})	
 		}
 		main {
+	
 			display: flex;
 			justify-content: space-between;
 			height: 520px;
@@ -104,7 +112,18 @@
 				    top: 452px;
 				    right: 29px;
 				}
+			
+				.screen-sm-max({
+					width: auto;
+				})	
 			}
+
+			.screen-sm-max({
+				flex-direction: column;
+				height: 1635px;
+				width: auto;
+				align-content: center;
+			})	
 		}
 		
 		button {
@@ -121,5 +140,13 @@
 			color: #FFFFFF;
 			margin-top: 79px;
 			border: none;
+
+			.screen-sm-max({
+				margin-top: 50px;
+			})	
 		}
+	
+	.screen-sm-max({
+		height: 1950px;
+	})	
 }
