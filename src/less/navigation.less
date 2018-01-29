@@ -43,6 +43,10 @@
 	.left-pane {
 		.label {
 			.label-text();
+
+			.screen-xs({
+				display: none;
+			});
 		}
 
 		.contacts {
@@ -50,7 +54,15 @@
 
 			.work-hours {
 				.label-text();
-			}		
+
+				.screen-xs({
+					margin-left: 5\px;
+				});		
+			}
+
+			.screen-xs({
+				margin-left: 0;
+			});		
 		}
 	}
 
@@ -159,8 +171,13 @@
 
 	.screen-sm-max({
 		width: auto;
-	})
+	});
 
+	.screen-xs({
+		width: 350px;
+		padding: 0 0 0 10px;
+    	height: 66px;
+	})	
 }
 
 

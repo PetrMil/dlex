@@ -28,7 +28,12 @@
 
 			.screen-sm-max({
 				padding-top: 0;
-			})	
+			});
+
+			.screen-xs({
+				width: 100%;
+				text-align: center;
+			});	
    		}
 		
 		ul {	
@@ -74,13 +79,22 @@
 				padding-top: 0;
 				padding-right: 15px;
 				width: 380px;
-			})	
+			});
+
+			.screen-xs({
+				margin-left: -20px;
+			});	
     	}
 	
 		.screen-sm-max({
 			height: 143px;
 			align-items: center;
-		})	
+		});
+
+		.screen-xs({
+			flex-wrap: wrap;
+			height: 117px;
+		});
 	}
 	.watches-container	{
 		width: 100%;
@@ -100,6 +114,12 @@
 				width: 160px;
 				height: 160px;
 				margin: 20px;
+
+				.screen-xs({
+					width: 120px;
+					height: 120px;
+					margin: 0px;
+				});
 			}
 
 			.best-sale {
@@ -113,6 +133,11 @@
    				color: #FFFFFF;
 				.btn-align;
 				margin-left: 50px;
+
+				.screen-xs({
+					margin-top: 126px;
+    				margin-left: 141px;
+				});
 			}
 
 			.sale {
@@ -126,7 +151,12 @@
 				color: #FFFFFF;
 				.watch-font();
 				.btn-align;
-				margin-left: 79px;	
+				margin-left: 79px;
+
+				.screen-xs({
+					margin-top: 126px;
+    				margin-left: 169px;
+				});	
 			}
 
 			.out-of-stock {
@@ -140,6 +170,11 @@
 				.watch-font();
 				.btn-align;
 				margin-left: 32px;
+
+				.screen-xs({
+				    margin-top: 126px;
+				    margin-left: 122px;
+				});	
 			}
 
 			.watch-small-sect {
@@ -152,7 +187,12 @@
 					height: auto;
 					position: absolute;
 	    			top: 77px;
-	    			left: -21px;				
+	    			left: -21px;
+
+	    			.screen-xs({
+						left: 1px;
+						top: 76px;
+					});				
 				} 
 
 				h1 {
@@ -164,6 +204,10 @@
 					color: #464855;
 					position: absolute;
 					top: 18px;
+
+					.screen-xs({
+						top: 0;
+					});
 				}
 
 				.watch-color {
@@ -174,6 +218,10 @@
 				    position: absolute;
 				    top: 83px;
 				    left: 16px;
+				
+					.screen-xs({
+						top: 62px;
+					});				    
 				}
 
 				.price {
@@ -183,6 +231,10 @@
 					color: #666EE8;
 					position: absolute;
 				    top: 114px;
+
+					.screen-xs({
+						top: 85px;
+					});
 				}
 
 				.old-price {
@@ -193,11 +245,26 @@
 					color: #AEB2C1;
 					position: absolute;
 	    			top: 144px;
+					
+					.screen-xs({
+						top: 120px;
+					});
 	    		}
+
+	    		.screen-xs({
+					width: auto;
+				});	
 			}
+				.screen-xs({
+					height: 163px;	
+				});
 		}
 	}
 	.screen-sm-max({
 		height: 980px;
-	})	
+	});
+
+	.screen-xs({
+		height: 745px;	
+	});	
 }

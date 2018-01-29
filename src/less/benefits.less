@@ -32,6 +32,10 @@
 		font-size: 26px;
 		color: #464855;
 		margin-top: 71px;
+
+		.screen-xs({
+			margin-top: 33px;
+		});	
 	}
 
 	.ben-container {
@@ -72,16 +76,24 @@
 			.screen-sm-max({
 				height: auto;
 				width: 84%;
-			})
+			});
 		}
 
 		.screen-sm-max({
 			flex-direction: column;
 			height: auto;
-		})	
+		});
+
+		.screen-xs({
+			margin-top: 31px;
+		});	
 	}
 	
 	.screen-sm-max({
 		height: 734px;
-	})	
+	});
+
+	.screen-xs({
+		height: 622px;
+	});		
 }

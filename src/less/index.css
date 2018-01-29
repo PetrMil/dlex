@@ -41,6 +41,11 @@
   margin-right: 9px;
   display: inline-block;
 }
+@media (max-width: 767px) {
+  .navigation-bar .left-pane .label {
+    display: none;
+  }
+}
 .navigation-bar .left-pane .contacts {
   margin-left: 35px;
 }
@@ -48,6 +53,16 @@
   opacity: 0.6;
   margin-right: 9px;
   display: inline-block;
+}
+@media (max-width: 767px) {
+  .navigation-bar .left-pane .contacts .work-hours {
+    margin-left: 5\px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation-bar .left-pane .contacts {
+    margin-left: 0;
+  }
 }
 .navigation-bar .right-pane {
   height: 100%;
@@ -176,6 +191,13 @@
 @media (max-width: 991px) {
   .navigation-bar {
     width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .navigation-bar {
+    width: 350px;
+    padding: 0 0 0 10px;
+    height: 66px;
   }
 }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -460,9 +482,19 @@ th {
 .select-device .container .select-input .select-wrap .select-device:focus {
   outline: none;
 }
+@media (max-width: 767px) {
+  .select-device .container .select-input .select-wrap .select-device {
+    width: 46px;
+  }
+}
 @media (max-width: 991px) {
   .select-device .container .select-input {
     width: 350px;
+  }
+}
+@media (max-width: 767px) {
+  .select-device .container .select-input {
+    width: 166px;
   }
 }
 .header {
@@ -482,6 +514,11 @@ th {
 @media (max-width: 991px) {
   .header .left-side .titleText {
     margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .header .left-side .titleText {
+    width: 309px;
   }
 }
 .header .left-side .describe-text {
@@ -554,12 +591,22 @@ th {
 .header .left-side .select-icon .icon-container.active svg * {
   fill: #FFFFFF;
 }
+@media (max-width: 767px) {
+  .header .left-side .select-icon {
+    width: 345px;
+  }
+}
 @media (max-width: 991px) {
   .header .left-side {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .header .left-side {
+    width: 100%;
   }
 }
 .header .right-side .hands-money {
@@ -611,6 +658,11 @@ th {
   font-size: 26px;
   color: #464855;
   margin-top: 71px;
+}
+@media (max-width: 767px) {
+  .benefits .ben-title {
+    margin-top: 33px;
+  }
 }
 .benefits .ben-container {
   display: flex;
@@ -724,9 +776,19 @@ th {
     height: auto;
   }
 }
+@media (max-width: 767px) {
+  .benefits .ben-container {
+    margin-top: 31px;
+  }
+}
 @media (max-width: 991px) {
   .benefits {
     height: 734px;
+  }
+}
+@media (max-width: 767px) {
+  .benefits {
+    height: 622px;
   }
 }
 .btn-align {
@@ -761,6 +823,12 @@ th {
 @media (max-width: 991px) {
   .watches .watches-nav-bar h1 {
     padding-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .watches .watches-nav-bar h1 {
+    width: 100%;
+    text-align: center;
   }
 }
 .watches .watches-nav-bar ul {
@@ -810,10 +878,21 @@ th {
     width: 380px;
   }
 }
+@media (max-width: 767px) {
+  .watches .watches-nav-bar ul {
+    margin-left: -20px;
+  }
+}
 @media (max-width: 991px) {
   .watches .watches-nav-bar {
     height: 143px;
     align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .watches .watches-nav-bar {
+    flex-wrap: wrap;
+    height: 117px;
   }
 }
 .watches .watches-container {
@@ -835,6 +914,13 @@ th {
   height: 160px;
   margin: 20px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section img {
+    width: 120px;
+    height: 120px;
+    margin: 0px;
+  }
+}
 .watches .watches-container .watches-section .best-sale {
   width: 75px;
   height: 26px;
@@ -849,6 +935,12 @@ th {
   line-height: 28px;
   margin-top: 143px;
   margin-left: 50px;
+}
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .best-sale {
+    margin-top: 126px;
+    margin-left: 141px;
+  }
 }
 .watches .watches-container .watches-section .sale {
   width: 46px;
@@ -866,6 +958,12 @@ th {
   margin-top: 143px;
   margin-left: 79px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .sale {
+    margin-top: 126px;
+    margin-left: 169px;
+  }
+}
 .watches .watches-container .watches-section .out-of-stock {
   width: 93px;
   height: 26px;
@@ -881,6 +979,12 @@ th {
   margin-top: 143px;
   margin-left: 32px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .out-of-stock {
+    margin-top: 126px;
+    margin-left: 122px;
+  }
+}
 .watches .watches-container .watches-section .watch-small-sect {
   width: 230px;
   height: 144px;
@@ -892,6 +996,12 @@ th {
   position: absolute;
   top: 77px;
   left: -21px;
+}
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect .color {
+    left: 1px;
+    top: 76px;
+  }
 }
 .watches .watches-container .watches-section .watch-small-sect h1 {
   width: 230px;
@@ -905,6 +1015,11 @@ th {
   position: absolute;
   top: 18px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect h1 {
+    top: 0;
+  }
+}
 .watches .watches-container .watches-section .watch-small-sect .watch-color {
   font-family: Montserrat;
   font-style: normal;
@@ -916,6 +1031,11 @@ th {
   top: 83px;
   left: 16px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect .watch-color {
+    top: 62px;
+  }
+}
 .watches .watches-container .watches-section .watch-small-sect .price {
   font-family: Montserrat;
   font-style: normal;
@@ -925,6 +1045,11 @@ th {
   color: #666EE8;
   position: absolute;
   top: 114px;
+}
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect .price {
+    top: 85px;
+  }
 }
 .watches .watches-container .watches-section .watch-small-sect .old-price {
   font-family: Montserrat;
@@ -937,9 +1062,29 @@ th {
   position: absolute;
   top: 144px;
 }
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect .old-price {
+    top: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section .watch-small-sect {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .watches .watches-container .watches-section {
+    height: 163px;
+  }
+}
 @media (max-width: 991px) {
   .watches {
     height: 980px;
+  }
+}
+@media (max-width: 767px) {
+  .watches {
+    height: 745px;
   }
 }
 .destinations {
@@ -986,6 +1131,11 @@ th {
   color: #6B6F81;
   padding-bottom: 45px;
 }
+@media (max-width: 767px) {
+  .destinations header p {
+    line-height: 22px;
+  }
+}
 @media (max-width: 991px) {
   .destinations header {
     height: 160px;
@@ -1004,6 +1154,11 @@ th {
 .destinations main .homes .house_img {
   width: 370px;
   height: 520px;
+}
+@media (max-width: 767px) {
+  .destinations main .homes .house_img {
+    width: 350px;
+  }
 }
 .destinations main .homes h2 {
   position: absolute;
@@ -1395,9 +1550,19 @@ body {
     height: 440px;
   }
 }
+@media (max-width: 767px) {
+  .wrapper.header {
+    height: 460px;
+  }
+}
 @media (max-width: 991px) {
   .wrapper {
     width: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper {
+    width: 350px;
   }
 }
 .main-container {
@@ -1408,5 +1573,10 @@ body {
 @media (max-width: 991px) {
   .main-container {
     width: 600px;
+  }
+}
+@media (max-width: 767px) {
+  .main-container {
+    width: 350px;
   }
 }
