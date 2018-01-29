@@ -46,6 +46,11 @@
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .navigation-bar .left-pane .lang-select {
+    line-height: 22px;
+  }
+}
 .navigation-bar .left-pane .contacts {
   margin-left: 35px;
 }
@@ -56,7 +61,8 @@
 }
 @media (max-width: 767px) {
   .navigation-bar .left-pane .contacts .work-hours {
-    margin-left: 5\px;
+    margin-left: 0;
+    line-height: 29px;
   }
 }
 @media (max-width: 767px) {
@@ -171,6 +177,11 @@
     margin-left: 20px;
   }
 }
+@media (max-width: 767px) {
+  .navigation-bar .right-pane .search-input input {
+    margin-left: 30px;
+  }
+}
 .navigation-bar .right-pane .search-input .icon {
   position: absolute;
   left: 20px;
@@ -183,9 +194,21 @@
     transform: scale(0.5);
   }
 }
+@media (max-width: 767px) {
+  .navigation-bar .right-pane .search-input .icon {
+    left: 10px;
+    transform: none;
+  }
+}
 @media (max-width: 991px) {
   .navigation-bar .right-pane .search-input {
     width: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .navigation-bar .right-pane .search-input {
+    margin-top: 28px;
+    height: 33%;
   }
 }
 @media (max-width: 991px) {
@@ -197,7 +220,7 @@
   .navigation-bar {
     width: 350px;
     padding: 0 0 0 10px;
-    height: 66px;
+    height: 86px;
   }
 }
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -530,6 +553,16 @@ th {
   color: #6B6F81;
   max-width: 75.375%;
   margin-top: 5px;
+}
+@media (max-width: 991px) {
+  .header .left-side .describe-text {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .header .left-side .describe-text {
+    max-width: none;
+  }
 }
 .header .left-side .select-text {
   font-family: Montserrat;
@@ -1294,22 +1327,52 @@ th {
     margin-left: 24px;
   }
 }
+@media (max-width: 767px) {
+  .footer .up-section .logo-container {
+    width: 100%;
+  }
+}
 .footer .up-section .company {
   width: 25.7%;
   margin-top: 3px;
+}
+@media (max-width: 767px) {
+  .footer .up-section .company {
+    width: 44.7%;
+    margin-top: -23px;
+    margin-left: 24px;
+  }
 }
 .footer .up-section .about {
   width: 25.6%;
   margin-top: 3px;
 }
+@media (max-width: 767px) {
+  .footer .up-section .about {
+    width: 44.6%;
+    margin-top: -23px;
+  }
+}
 .footer .up-section .resources {
   flex: 1;
   margin-top: -63px;
+}
+@media (max-width: 767px) {
+  .footer .up-section .resources {
+    margin-top: -32px;
+    margin-left: 24px;
+  }
 }
 @media (max-width: 991px) {
   .footer .up-section {
     width: auto;
     height: 266px;
+  }
+}
+@media (max-width: 767px) {
+  .footer .up-section {
+    height: 411px;
+    flex-wrap: wrap;
   }
 }
 .footer .down-section {
@@ -1421,6 +1484,11 @@ th {
     margin-top: 0px;
   }
 }
+@media (max-width: 767px) {
+  .footer .down-section .social {
+    width: 100%;
+  }
+}
 .footer .down-section .subscribe {
   flex: 1;
   margin-top: 57px;
@@ -1481,10 +1549,22 @@ th {
   top: 17px;
   cursor: pointer;
 }
+@media (max-width: 767px) {
+  .footer .down-section .subscribe .input-container {
+    width: 250px;
+  }
+}
 @media (max-width: 991px) {
   .footer .down-section .subscribe {
     width: 45%;
     margin-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .footer .down-section .subscribe {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 24px;
   }
 }
 @media (max-width: 991px) {
