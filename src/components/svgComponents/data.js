@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import WatchLogo from '../svgComponents/svg/WatchLogo.js';
-import MobileLogo from '../svgComponents/svg/MobileLogo.js';
-import TabletLogo from '../svgComponents/svg/TabletLogo.js';
-import LaptopLogo from '../svgComponents/svg/LaptopLogo.js';
-import DesktopLogo from '../svgComponents/svg/DesktopLogo.js';;
+import watchLogo from '../svgComponents/svg/watchLogo.js';
+import mobileLogo from '../svgComponents/svg/mobileLogo.js';
+import tabletLogo from '../svgComponents/svg/tabletLogo.js';
+import laptopLogo from '../svgComponents/svg/laptopLogo.js';
+import desktopLogo from '../svgComponents/svg/desktopLogo.js';;
 
 const data = 
     {
-    watch: WatchLogo,
-    mobile: MobileLogo,
-    tablet: TabletLogo,
-    laptop: LaptopLogo,
-    desktop: DesktopLogo
+    watch: watchLogo,
+    mobile: mobileLogo,
+    tablet: tabletLogo,
+    laptop: laptopLogo,
+    desktop: desktopLogo
 	}
 
 const names = Object.keys(data)
