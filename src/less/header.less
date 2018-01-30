@@ -69,6 +69,7 @@
 		    align-items: center;
 		    position: relative;
 		    cursor: pointer;
+		    outline: none !important; 
 			
 			.icon-container {
 				height: 100%;
@@ -76,30 +77,56 @@
 				justify-content: center;
 				align-items: center;
 				border-right: 1px solid #E4E5EC;
+				outline: none !important; 
+
+					.icon-container:active {
+						outline: none !important; 
+					}			
 
 				&.watch {
 					width: 104px;
-					.change-bg-color-animation();				
+					.change-bg-color-animation();
+					outline: none !important; 
+					
+					.watch:active {
+						outline: none !important; 
+					}				
 				}
 
 				&.mobile {
 					width: 101px;
 					.change-bg-color-animation();
+					
+					.mobile:active {
+						outline: none !important; 
+					}	
 				}
 
 				&.tablet {
 					width: 108px;
-					.change-bg-color-animation();	
+					.change-bg-color-animation();
+					
+					.tablet:active {
+						outline: none !important; 
+					}			
 				}
 
 				&.laptop {
 					width: 111px;
 					.change-bg-color-animation();
+				
+					.laptop:active {
+						outline: none !important; 
+					}	
 				}
 
 				&.desktop {
 					width: 111px;
 					.change-bg-color-animation();
+
+					.desktop:active {
+						outline: none !important; 
+					}	
 				}
 
 				&.active {
@@ -109,7 +136,11 @@
 						* {
 							fill:#FFFFFF;
 						}
-					}	
+					}
+
+					.active:active {
+						outline: none !important; 
+					}		
 				}
 			}
 

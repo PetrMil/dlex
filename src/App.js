@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 
-import MainContainer from './components/MainContainer';
-import NavBar from './components/NavBar';
-import SelectDevice from './components/SelectDevice';
-import Header from './components/Header';
-import Benefits from './components/Benefits';
-import Watches from './components/Watches';
-import Destinations from './components/Destinations';
-import Footer from './components/Footer';
+import MainContainer from './components/mainContainer';
+import NavBar from './components/navBar';
+import SelectDevice from './components/selectDevice';
+import Header from './components/header';
+import Benefits from './components/benefits';
+import Watches from './components/watches';
+import Destinations from './components/destinations';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {

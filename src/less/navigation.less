@@ -62,8 +62,7 @@
 				.label-text();
 
 				.screen-xs({
-					margin-left: 0;
-					line-height: 29px;
+					display: none;
 				});		
 			}
 
@@ -71,6 +70,12 @@
 				margin-left: 0;
 			});		
 		}
+
+		.screen-xs({
+			margin-left: -10px;
+			display: flex;
+			flex-direction: column;
+		});		
 	}
 
 	.right-pane {
@@ -184,20 +189,19 @@
 			});
 		
 			.screen-xs({
-				margin-top: 28px;
-		    	height: 33%;
+				margin-top: 18px;
+		    	height: 40%;
 			})	
 		}
 	}
 
 	.screen-sm-max({
-		width: auto;
+		margin-left: -600px;
+   		margin-right: -600px;
 	});
 
 	.screen-xs({
-		width: 350px;
-		padding: 0 0 0 10px;
-    	height: 86px;
+    	height: 57px;
 	})	
 }
 

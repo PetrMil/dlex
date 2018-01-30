@@ -46,9 +46,19 @@
 					z-index: 20;
 					cursor: pointer;
 					transition: color 0.3s ease-out;
+					outline: none !important;
+
+						:active {
+							outline: none !important;
+						} 
 
 					&.active {
 						color: #fff;
+						outline: none !important; 
+
+						:active {
+							outline: none !important;
+						} 
 					}
 				}
 
@@ -62,12 +72,25 @@
 					z-index: 10;
 					border-radius: 100px;
 					transition: left 0.3s ease-out;
+					outline: none !important;
+
+					:active {
+						outline: none !important;
+					}  
 
 					&.right {
 						left: 50%;
+						outline: none !important;
+
+						:active {
+							outline: none !important;
+						}  
 					} 
 				}
-
+				
+				.screen-xs({
+					width: 157px;
+				});
 			}
 			.select-wrap{
 				
@@ -117,7 +140,8 @@
 			});
 
 			.screen-xs({
-				width: 166px;
+				width: 193px;
+				margin-right: 21px;
 			})		
 		} 
 	}

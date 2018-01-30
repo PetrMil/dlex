@@ -29,7 +29,6 @@ export default class NavBar extends Component {
 						<img className="icon" src={searchIcon} />
 						<input type="text" placeholder="Search here" />
 					</div>
-
 				</div>
 			</div>
 		)
