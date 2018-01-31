@@ -12,29 +12,29 @@ import Footer from './components/footer';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <NavBar />
-        <MainContainer className="select-device"> 
-         <SelectDevice />
-        </MainContainer>
-        <MainContainer className="header"> 
-         <Header />
-        </MainContainer>
-        <MainContainer className="benefits"> 
-         <Benefits />
-        </MainContainer>
-        <MainContainer className="watches"> 
-         <Watches />
-        </MainContainer>
-        <MainContainer className="destinations"> 
-         <Destinations />
-        </MainContainer>
-        <MainContainer className="footer"> 
-         <Footer />
-        </MainContainer>      
-      </div>
-    );
+	return (
+	  <div className="App">
+		<NavBar />
+		<MainContainer className="select-device">
+		 <SelectDevice />
+		</MainContainer>
+		<MainContainer className="header">
+		 <Header />
+		</MainContainer>
+		<MainContainer className="benefits">
+		 <Benefits />
+		</MainContainer>
+		<MainContainer className="watches">
+		 <Watches />
+		</MainContainer>
+		<MainContainer className="destinations">
+		 <Destinations />
+		</MainContainer>
+		<MainContainer className="footer">
+		 <Footer />
+		</MainContainer>
+	  </div>
+	);
   }
 }
 

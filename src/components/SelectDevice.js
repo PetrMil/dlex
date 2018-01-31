@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import logoText from '../images/logo-text.svg';
 
 export default class SelectDevice extends Component {
-	
+
 	constructor(props) {
 
 		super(props);
-		
+
 		this.state = {
 			activeButton: 'buy'
 		}
-	} 
-	
+	}
+
 	handleClick(name) {
 		this.setState({
 			activeButton: name
@@ -19,9 +19,9 @@ export default class SelectDevice extends Component {
 	}
 
 	render() {
-		
+
 		var active = this.state.activeButton
-		
+
 		return (
 			<div className="container">
 				<img className="logo-text" src={logoText}/>
@@ -34,7 +34,7 @@ export default class SelectDevice extends Component {
 					<div className="select-wrap">
 						<input type="text" placeholder="Select Your Device" className="select-device" />
 						<div className="toggle"></div>
-					</div>		
+					</div>
 				</div>
 			</div>
 		)

@@ -7,7 +7,7 @@ import { SvgComponent } from './svgComponents/index';
 export default class Header extends Component {
 
 	render() {
-	
+
 		return (
 
 			<div className="header">
@@ -21,6 +21,6 @@ export default class Header extends Component {
 					<img src={handsMoney} className="hands-money"/>
 				</div>
 			</div>
-		)	
+		)
 	}
 }

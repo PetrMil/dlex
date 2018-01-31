@@ -6,14 +6,14 @@
 	justify-content: space-between;
 	height: 100%;
 
-	.left-side {	
+	.left-side {
 		height: 100%;
-				
+
 		.titleText {
 			width: 344px;
 			height: 88px;
 			margin-top: 99px;
-			
+
 			.screen-sm-max({
 				margin-top: 30px;
 			});
@@ -40,7 +40,7 @@
 			.screen-xs({
 				max-width: none;
 			})
-	
+
 		}
 
 		.select-text {
@@ -51,10 +51,10 @@
 			font-size: 16px;
 			color: #6B6F81;
 			margin-top: 102px;
-		
+
 			.screen-sm-max({
 				margin-top: 30px;
-			})	
+			})
 		}
 
 		.select-icon {
@@ -65,59 +65,59 @@
 			border: 1px solid #E4E5EC;
 			box-sizing: border-box;
 			box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.03);
-		    margin-top: 19px;
-		    align-items: center;
-		    position: relative;
-		    cursor: pointer;
-		    outline: none !important; 
-			
+			margin-top: 19px;
+			align-items: center;
+			position: relative;
+			cursor: pointer;
+			outline: none !important;
+
 			.icon-container {
 				height: 100%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				border-right: 1px solid #E4E5EC;
-				outline: none !important; 
+				outline: none !important;
 
 					.icon-container:active {
-						outline: none !important; 
-					}			
+						outline: none !important;
+					}
 
 				&.watch {
 					width: 104px;
 					.change-bg-color-animation();
-					outline: none !important; 
-					
+					outline: none !important;
+
 					.watch:active {
-						outline: none !important; 
-					}				
+						outline: none !important;
+					}
 				}
 
 				&.mobile {
 					width: 101px;
 					.change-bg-color-animation();
-					
+
 					.mobile:active {
-						outline: none !important; 
-					}	
+						outline: none !important;
+					}
 				}
 
 				&.tablet {
 					width: 108px;
 					.change-bg-color-animation();
-					
+
 					.tablet:active {
-						outline: none !important; 
-					}			
+						outline: none !important;
+					}
 				}
 
 				&.laptop {
 					width: 111px;
 					.change-bg-color-animation();
-				
+
 					.laptop:active {
-						outline: none !important; 
-					}	
+						outline: none !important;
+					}
 				}
 
 				&.desktop {
@@ -125,13 +125,13 @@
 					.change-bg-color-animation();
 
 					.desktop:active {
-						outline: none !important; 
-					}	
+						outline: none !important;
+					}
 				}
 
 				&.active {
 					background-color: #8A91FF;
-					
+
 					svg {
 						* {
 							fill:#FFFFFF;
@@ -139,16 +139,16 @@
 					}
 
 					.active:active {
-						outline: none !important; 
-					}		
+						outline: none !important;
+					}
 				}
 			}
 
 			.screen-xs({
 				width: 345px;
-			})		
+			})
 		}
-		
+
 		.screen-sm-max({
 			height: 100%;
 			display: flex;
@@ -158,9 +158,9 @@
 
 		.screen-xs({
 			width: 100%;
-		})		
+		})
 	}
-	
+
 	.right-side {
 		.hands-money {
 			width: 397.7px;
@@ -168,7 +168,7 @@
 		}
 		.screen-sm-max({
 			display: none;
-		})			
+		})
 	}
 }
 

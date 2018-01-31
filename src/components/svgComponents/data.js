@@ -5,15 +5,15 @@ import tabletLogo from '../svgComponents/svg/tabletLogo.js';
 import laptopLogo from '../svgComponents/svg/laptopLogo.js';
 import desktopLogo from '../svgComponents/svg/desktopLogo.js';;
 
-const data = 
-    {
-    watch: watchLogo,
-    mobile: mobileLogo,
-    tablet: tabletLogo,
-    laptop: laptopLogo,
-    desktop: desktopLogo
+const data =
+	{
+	watch: watchLogo,
+	mobile: mobileLogo,
+	tablet: tabletLogo,
+	laptop: laptopLogo,
+	desktop: desktopLogo
 	}
 
 const names = Object.keys(data)
-        
+
 export {data, names};

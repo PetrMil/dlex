@@ -10,12 +10,12 @@ export default class Wathces extends Component {
 	constructor(props) {
 
 		super(props);
-		
+
 		this.state = {
 			activeButton: 'watches'
 		}
-	} 
-	
+	}
+
 	handleClick(name) {
 		this.setState({
 			activeButton: name
@@ -43,7 +43,7 @@ export default class Wathces extends Component {
 						<img src={watch_1}/>
 						<div className="watch-small-sect">
 							<h1>Daniel Wellington Women's 0511DW Classic Bristol</h1>
-							<img src={color} className="color"/> 
+							<img src={color} className="color"/>
 							<p className="watch-color">Brown</p>
 							<p className="price">$79.99</p>
 							<p className="old-price">$139.99</p>
@@ -54,7 +54,7 @@ export default class Wathces extends Component {
 						<img src={watch_2}/>
 						<div className="watch-small-sect">
 							<h1>Daniel Wellington Women's 0511DW Classic Bristol</h1>
-							<img src={color} className="color"/> 
+							<img src={color} className="color"/>
 							<p className="watch-color">Brown</p>
 							<p className="price">$79.99</p>
 							<p className="old-price">$139.99</p>
@@ -65,18 +65,18 @@ export default class Wathces extends Component {
 						<img src={watch_3}/>
 						<div className="watch-small-sect">
 							<h1>Daniel Wellington Women's 0511DW Classic Bristol</h1>
-							<img src={color} className="color"/> 
+							<img src={color} className="color"/>
 							<p className="watch-color">Brown</p>
 							<p className="price">$79.99</p>
 							<p className="old-price">$139.99</p>
 						</div>
-						<p className="out-of-stock">Out of stock</p>			
+						<p className="out-of-stock">Out of stock</p>
 					</div>
 					<div className="watches-section">
 						<img src={watch_4}/>
 						<div className="watch-small-sect">
 							<h1>Daniel Wellington Women's 0511DW Classic Bristol</h1>
-							<img src={color} className="color"/> 
+							<img src={color} className="color"/>
 							<p className="watch-color">Brown</p>
 							<p className="price">$79.99</p>
 							<p className="old-price">$139.99</p>
