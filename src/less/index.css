@@ -638,35 +638,35 @@ button {
   transition: background 0.7s ease-out;
   outline: none !important;
 }
-.header .left-side .select-icon .icon-container.watch .watch:active {
+.header .left-side .select-icon .icon-container.watch :active {
   outline: none !important;
 }
 .header .left-side .select-icon .icon-container.mobile {
   width: 101px;
   transition: background 0.7s ease-out;
 }
-.header .left-side .select-icon .icon-container.mobile .mobile:active {
+.header .left-side .select-icon .icon-container.mobile :active {
   outline: none !important;
 }
 .header .left-side .select-icon .icon-container.tablet {
   width: 108px;
   transition: background 0.7s ease-out;
 }
-.header .left-side .select-icon .icon-container.tablet .tablet:active {
+.header .left-side .select-icon .icon-container.tablet :active {
   outline: none !important;
 }
 .header .left-side .select-icon .icon-container.laptop {
   width: 111px;
   transition: background 0.7s ease-out;
 }
-.header .left-side .select-icon .icon-container.laptop .laptop:active {
+.header .left-side .select-icon .icon-container.laptop :active {
   outline: none !important;
 }
 .header .left-side .select-icon .icon-container.desktop {
   width: 111px;
   transition: background 0.7s ease-out;
 }
-.header .left-side .select-icon .icon-container.desktop .desktop:active {
+.header .left-side .select-icon .icon-container.desktop :active {
   outline: none !important;
 }
 .header .left-side .select-icon .icon-container.active {
@@ -675,7 +675,7 @@ button {
 .header .left-side .select-icon .icon-container.active svg * {
   fill: #FFFFFF;
 }
-.header .left-side .select-icon .icon-container.active .active:active {
+.header .left-side .select-icon .icon-container.active :active {
   outline: none !important;
 }
 @media (max-width: 767px) {
